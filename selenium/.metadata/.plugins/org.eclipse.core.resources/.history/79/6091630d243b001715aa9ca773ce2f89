@@ -1,0 +1,18 @@
+package com.harsha.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class SeleniumTest {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.setProperty("webdriver.gecko.driver", "//Users//harsha//Downloads//geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://www.seleniumhq.org");
+		Thread.sleep(10000);
+		
+
+	}
+
+}
